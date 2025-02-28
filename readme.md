@@ -99,10 +99,6 @@ import clsx from 'clsx/lite';
 // string
 clsx('hello', true && 'foo', false && 'bar');
 // => "hello foo"
-
-// NOTE: Any non-string input(s) ignored
-clsx({ foo: true });
-//=> ""
 ```
 
 ## Benchmarks
